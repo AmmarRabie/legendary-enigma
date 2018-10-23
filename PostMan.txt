@@ -1,0 +1,42 @@
+-- inserted from post man
+
+--{
+--	"name":"AmmarEl sayed",
+--	"email":"Ammmarr@gh.edu.eg",
+--	"pass":"123456",
+--	"dep":"D511",
+--	"uni":"U1",
+--	"fac":"F11"
+--}
+
+
+
+--{
+--	"name":"Ramy sayed",
+--	"email":"RamyMohammed@gh.edu.eg",
+--	"pass":"12345689",
+--	"dep":"D111",
+--	"uni":"U1",
+--	"fac":"F11"
+--}
+
+
+
+--{
+--	"name":"Loai Ali",
+--	"email":"Loai@gh.edu.eg",
+--	"pass":"12345689",
+--	"dep":"D211",
+--	"uni":"U1",
+--	"fac":"F11"
+--}
+
+--{
+--	"name":"Mahmoud Youssri ",
+--	"email":"Youssri@gh.edu.eg",
+--	"pass":"12345gg689",
+--	"dep":"D211",
+--	"uni":"U1",
+--	"fac":"F21"
+--}
+

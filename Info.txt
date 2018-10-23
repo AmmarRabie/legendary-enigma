@@ -1,0 +1,22 @@
+Mobile application:
+1) put connection string in api
+2)make sure mobile and server connected to the same network and change ip address in server utility
+3)check Port 5000  in  inbud rules and outband rules
+4)insertion process :
+  1)insert the faculties,departments and universities
+  2)using postman insert into db with the scripts found in postman.txt
+  3)insert the rest of the dataa
+
+
+windows application:
+for admin that  controls database accessed by putting string connection in windows application code
+
+database:
+run the script of database and stored procesdures and insertion values
+ 
+team information:
+
+Loai ali sec:2 bn :11
+mahmoud youssri  sec:2 bn:22
+ramy saed sec:1 bn:21
+ammar sec:2 bn:4
