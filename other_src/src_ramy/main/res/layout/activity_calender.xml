@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.android.example.studyStation.ui.activities.CalenderActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="0dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- the 1st row (head of the table) -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp">
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="12:1"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="1:2"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="2:3"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="3:4"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="4:5"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="5:6"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="6:7"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="7:8"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="8:9"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="9:10"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="10:11"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:text="11:12"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/activityCalender_satRow"
+                android:layout_marginBottom="@dimen/calender_activity_margin_bottom_rows"
+                android:paddingLeft="8dp">
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="Sat"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                   />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                   />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                  />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/activityCalender_sunRow"
+                android:layout_marginBottom="@dimen/calender_activity_margin_bottom_rows"
+                android:paddingLeft="8dp">
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="Sun"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                  />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                   />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                   />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                  />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="@dimen/calender_activity_margin_bottom_rows"
+                android:paddingLeft="8dp"
+                android:id="@+id/activityCalender_monRow"
+                >
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="Mon"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                   />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="@dimen/calender_activity_margin_bottom_rows"
+                android:paddingLeft="8dp"
+                android:id="@+id/activityCalender_tusRow"
+                >
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="Tus"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="@dimen/calender_activity_margin_bottom_rows"
+                android:paddingLeft="8dp"
+                android:id="@+id/activityCalender_wedRow"
+                >
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="Wed"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    app:type="free" />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    app:type="free" />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    app:type="free" />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="@dimen/calender_activity_margin_bottom_rows"
+                android:paddingLeft="8dp"
+                android:id="@+id/activityCalender_thrRow"
+                >
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="Thr"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="@dimen/calender_activity_margin_bottom_rows"
+                android:paddingLeft="8dp"
+                android:id="@+id/activityCalender_friRow"
+                >
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="Fri"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+
+                <com.android.example.studyStation.ui.uiSupport.CheckBox_calender
+                    android:layout_gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                     />
+            </TableRow>
+
+        </TableLayout>
+    </HorizontalScrollView>
+</ScrollView>

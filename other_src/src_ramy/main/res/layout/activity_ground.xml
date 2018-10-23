@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0a4c0c"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!--First info-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overview"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="3dp"
+                android:layout_marginBottom="8dp"
+                android:background="#FFFFFF" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/activityGround_overview_prev"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="previous" />
+
+                <ImageSwitcher
+                    android:id="@+id/activityGround_overview"
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp"
+                    />
+
+                <Button
+                    android:id="@+id/activityGround_overview_next"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="next" />
+
+            </LinearLayout>
+            <!--second info-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="grass"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="65dp"
+                android:layout_height="3dp"
+                android:layout_marginBottom="8dp"
+                android:background="#FFFFFF" />
+
+            <ImageSwitcher
+                android:id="@+id/activityGround_grass"
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+
+                />
+
+            <!--third info-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="balls"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+            <View
+                android:layout_width="65dp"
+                android:layout_height="3dp"
+                android:layout_marginBottom="8dp"
+                android:background="#FFFFFF" />
+
+            <ImageSwitcher
+                android:id="@+id/activityGround_balls"
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/activityGround_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4c7f4c"
+        android:text="Book Now"
+        android:textStyle="bold"
+        android:onClick="onClick_book"
+        />
+</LinearLayout>
+
+

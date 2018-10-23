@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.example.studyStation.ui.activities.PlayCourseActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/activityPlayCourse_yourupePlayer"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="0">
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activityPlayCourse_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

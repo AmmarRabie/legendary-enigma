@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuMain_action_quickFind"
+        android:title="Quick Find"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_view" />
+
+    <item
+        android:id="@+id/menuMain_action_settings"
+        android:title="Settings"
+        android:orderInCategory="100"
+
+        />
+
+    <item
+        android:id="@+id/menuMain_action_mapView"
+        android:title="map view"
+        android:icon="@android:drawable/ic_dialog_map"
+        app:showAsAction="ifRoom"/>
+
+
+
+    <!--
+    this item to find a matches available by specific search,, like find all matches
+    near me of 50km and from 9:11 pm is free
+    you can here combine many conditions you want to help player find his
+    best match match fast..
+    note that there will be a query for this function directly
+    query search should support this specifications
+    -->
+    <item
+        android:id="@+id/menuMain_action_findBy"
+        android:title="Find by ..."
+        />
+
+
+</menu>

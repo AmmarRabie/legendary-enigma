@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.activities.StudentProfileActivity">
+
+
+    <TextView
+        android:id="@+id/activityStudentProfile_role"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:onClick="onViewCourses"
+        android:text="-> Moderator"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/activityStudentProfile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:onClick="onViewCourses"
+        android:visibility="visible"
+        tools:text="-> ammaralsayed55@gmail.com" />
+
+
+    <TextView
+        android:id="@+id/activityStudentProfile_uni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:onClick="onViewCourses"
+        tools:text="-> cairo university" />
+
+    <TextView
+        android:id="@+id/activityStudentProfile_fac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:onClick="onViewCourses"
+        tools:text="-> faculty of engineering" />
+
+    <TextView
+        android:id="@+id/activityStudentProfile_dep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:onClick="onViewCourses"
+        tools:text="-> computer science" />
+
+    <Button
+        android:id="@+id/activityStudentProfile_changePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change password"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/activityStudentProfile_changeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change your name"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:onClick="onViewCourses"
+        android:text=" All Courses"
+        android:textColor="#006699"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+
+    <!--to inflate the fragment(my study fragment) on it-->
+    <FrameLayout
+        android:id="@+id/activityStudentProfile_fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

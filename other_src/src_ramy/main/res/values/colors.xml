@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="rating_textColor">#e89a26</color>
+    <color name="GroundColor_green">#427208</color>
+
+    <!-- Color for an earthquake with magnitude 0 and 2 -->
+    <color name="color_questionMark">#b96612</color>
+    <color name="color_crossMark">#AA0000</color>
+    <color name="color_tickMark">#14c70b</color>
+
+
+
+</resources>

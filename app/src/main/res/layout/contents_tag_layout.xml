@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#629be4"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:paddingLeft="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/contentsTag_Courselabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            tools:text="DataBase" />
+        <!--android:drawableRight="@android:drawable/ic_delete"-->
+
+        <TextView
+            android:id="@+id/contentsTag_tagName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/contentsTag_Courselabel"
+            android:layout_toRightOf="@+id/contentsTag_Courselabel"
+            android:textColor="#961313"
+            android:textSize="20sp"
+            tools:text="data mangment" />
+
+        <TextView
+            android:id="@+id/contentsTag__menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|end"
+            android:drawableEnd="@drawable/three_dots_shape"
+            android:drawableRight="@drawable/three_dots_shape"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/contentsTag_CourseUni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:textColor="#282a2a"
+            tools:text="Cairo university" />
+
+        <TextView
+            android:id="@+id/contentsTag_Coursefac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            tools:text="faculty of engineering" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/contentsTag_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="ammaralsayed55@gmail.com" />
+</LinearLayout>

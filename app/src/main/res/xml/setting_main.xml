@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:title=" ">
+
+    <!--<ListPreference-->
+    <!--android:defaultValue=" "-->
+    <!--android:entries=" "-->
+    <!--&lt;!&ndash;android:entryValues=" "&ndash;&gt;-->
+    <!--android:key=" "-->
+    <!--android:title=" " />-->
+
+    <EditTextPreference
+        android:hint="like 192.168.1.7"
+        android:inputType="textUri"
+        android:key="@string/settings_server_ip_key"
+        android:singleLine="false"
+        android:textColorHint="@color/colorAccent"
+        android:title="server ip"
+        tools:includeFontPadding="false" />
+
+    <CheckBoxPreference
+        android:key="@string/settings_youtupe_option_fullscreen_key"
+        android:title="youtupe full screen mode"
+        />
+
+</PreferenceScreen>

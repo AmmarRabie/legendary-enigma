@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#629be4"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:paddingLeft="8dp"
+    android:layout_marginBottom="12dp"
+    android:id="@+id/student_item">
+
+
+    <TextView
+        android:id="@+id/questionLayout_QuestionHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:text="how can we get Iegen valuse ?" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/questionLayout_CreationDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            tools:text="CMP" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/questionLayout_AskerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#4d5050"
+        tools:text="ramy.m.saied@gmail.com" />
+</LinearLayout>

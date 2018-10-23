@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_newsFeed"
+            android:icon="@drawable/ic_watch_black_36dp"
+            android:title="News feed" />
+        <item
+            android:id="@+id/nav_myStudy"
+            android:icon="@drawable/ic_near_me"
+            android:title="My study" />
+
+        <item
+            android:id="@+id/nav_form"
+            android:icon="@drawable/ic_history_black_36dp"
+            android:title="Form" />
+        <item
+            android:id="@+id/nav_courseList"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Courses list" />
+
+        <item
+            android:id="@+id/nav_editContent"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Edit content" />
+
+        <item
+            android:id="@+id/nav_followers"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Followers" />
+
+
+    </group>
+
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="send feedback" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="help" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="about us" />
+        </menu>
+    </item>
+
+
+</menu>

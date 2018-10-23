@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuMore_action_deleteCourseTag"
+        android:title="delete this course" />
+
+    <item
+        android:id="@+id/menuMore_action_saveOffline"
+        android:title="change tag" />
+
+    <item
+        android:id="@+id/menuMore_action_sendAlert"
+        android:title="send alert" />
+</menu>

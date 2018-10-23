@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    tools:context="com.android.example.studyStation.ui.activities.InsertAnswerACtivity">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_height="150px"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:id="@+id/TEXT_VIEW"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="insert Your Answer"></TextView>
+    </ScrollView>
+    <EditText
+        android:id="@+id/INSERT_ANSWER_EDIT_TEXT"
+        android:layout_height="70px"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:maxHeight="70px"
+        />
+
+</RelativeLayout>
